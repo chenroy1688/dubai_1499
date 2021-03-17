@@ -1,0 +1,44 @@
+@mixin linear
+ background: #f2d972
+ background: -moz-linear-gradient(top, #f2d972 0%, #b09847 100%)
+ background: -webkit-linear-gradient(top, #f2d972 0%,#b09847 100%)
+ background: linear-gradient(to bottom, #f2d972 0%,#b09847 100%)
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2d972', endColorstr='#b09847',GradientType=0 )
+ transition: all .5s
+ -ms-transition: all .5s
+
+@mixin linear_hover
+ background: #fdf8d2
+ background: -moz-linear-gradient(top, #fdf8d2 0%, #ece467 100%)
+ background: -webkit-linear-gradient(top, #fdf8d2 0%,#ece467 100%)
+ background: linear-gradient(to bottom, #fdf8d2 0%,#ece467 100%)
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf8d2', endColorstr='#ece467',GradientType=0 )
+
+
+/* join btn02 */
+@mixin join_btn02
+ background: #fff
+ border: 2px solid #feaec3
+
+/* r_join btn02 */
+@mixin r_join_btn02
+ background: #fff
+ border: 2px solid #bfa264
+
+/* text-shadow */
+@mixin t_shadow
+ text-shadow: 1px 1px 4px #333
+
+/* 表格 1~5 圓形號碼*/
+@mixin num($td_w,$td_h)
+ width: $td_w
+ height: $td_h
+ line-height: 80px
+ font-size: 30px
+ font-weight: 600
+ color: #000
+ position: absolute
+ top: -10px
+ left: -30px
+ background: url('../images/circle_b.png') no-repeat
+

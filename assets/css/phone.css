@@ -1,0 +1,522 @@
+﻿.phone_wrap{
+	width:100%;
+	height:980vw;
+	position:relative;
+	background-color:#080405;
+	display: none;
+}
+.phone_inner_bg{
+	width:100%;
+	height:509vw;
+	background:#080405 url('../images/phone/phone_bg.jpg') top center no-repeat;
+	background-size:cover;
+	margin: 0 auto;
+	z-index: 0;
+}
+.p_content{
+	width:100%;
+	/*height:600vw;*/
+	margin:144.5vw 0 0 0;
+	color:#fff;
+}
+div.h_top{
+	width:100%;
+	height:14.5vw;
+	position:relative
+}
+div a.h_mem {
+	display:block;
+	width: 7vw;
+	height:7vw;
+	float:right;
+	margin:4vw 4vw 0 0;
+}
+/* 共同元素 */
+.p_content .p_box_1{
+	width: 97vw;
+	height:75vw;
+	margin: 0 auto;
+	border:1px solid #e0ad79;
+}
+.p_content .p_box_all{
+	width: 97vw;
+/*	height:75vw;*/
+	margin: 6.4vw auto 0 auto;
+	border:1px solid #e0ad79;
+}
+.p_content .p_header{
+	width:100%;
+	height:8.7vw;
+	background: url('../images/phone/p_tab_bg.jpg') no-repeat;
+}
+.p_content .p_header span{
+	display:block;
+	font-size:4vw;
+	color:#2a1b10;
+	line-height:8.7vw;
+	text-align:center;
+}
+.p_r_txt{color:#c60000;}
+.p_t{padding-top:3vw; border:1px solid #fff;}
+
+/* 第一個盒子 */
+.p_content .p_box_1 .p_header_menu{
+	width: 93.4vw;
+	height: 12vw;
+	margin: 1.8vw auto 0 auto;
+}
+.p_content .p_box_1 .p_header_menu a span{
+	display: block;
+	text-align:center;
+	padding-top:6.5vw;
+	font-size: 2.2vw;
+	line-height:2.2vw;
+	color:#e0ad79;
+}
+.p_content .p_box_1 .p_header_menu a span:hover{
+	color:#000;
+	font-weight: 600;
+}
+.p_content .p_box_1 .p_header_menu .a4 span{
+   padding-top:7.5vw;
+}
+.p_content .p_box_1 .p_header_menu a{
+   position:relative;
+   display:block;
+   float: left;
+   width:18.6vw;
+   height:12vw;
+   background:url('../images/phone/p_box_bg.png') no-repeat;
+   background-size: cover;
+   transition:all .5s;
+}
+.p_content .p_box_1 .p_header_menu a:hover{
+   background:url('../images/phone/p_box_h.png') no-repeat;
+   background-size:cover;
+}
+
+.p_content .p_box_1 .p_header_menu .a1:before{
+	content:'1';
+	position:absolute;
+	left:8vw;
+	top:1vw;
+	font-size:4vw;
+	color:#e0ad79;
+}
+.p_content .p_box_1 .p_header_menu .a1:hover:before{color:#000;}
+.p_content .p_box_1 .p_header_menu a.a2::before{
+	content:'2';
+	position:absolute;
+	left:8vw;
+	top:1vw;
+	font-size:4vw;
+	color:#e0ad79;
+}
+.p_content .p_box_1 .p_header_menu .a2:hover:before{color:#000;}
+.p_content .p_box_1 .p_header_menu a.a3::before{
+	content:'3';
+	position:absolute;
+	left:8vw;
+	top:1vw;
+	font-size:4vw;
+	color:#e0ad79;
+}
+.p_content .p_box_1 .p_header_menu .a3:hover:before{color:#000;}
+.p_content .p_box_1 .p_header_menu a.a4::before{
+	content:'4';
+	position:absolute;
+	left:8vw;
+	top:1vw;
+	font-size:4vw;
+	color:#e0ad79;
+}
+.p_content .p_box_1 .p_header_menu .a4:hover:before{color:#000;}
+.p_content .p_box_1 .p_header_menu a.a5::before{
+	content:'5';
+	position:absolute;
+	left:8vw;
+	top:1vw;
+	font-size:4vw;
+	color:#e0ad79;
+}
+.p_content .p_box_1 .p_header_menu .a5:hover:before{color:#000;}
+/*  手機第一個table  */
+.p_content .p_box_1 .p_tab1_content{
+	width:93vw;
+	height:46.5vw;
+	margin: 3.2vw auto 0 auto;
+	background: url('../images/phone/p_tab1_pic.jpg') no-repeat;
+	background-size:cover;
+}
+.p_content .p_box_1 .p_tab1_content .p_tab1_t_box{
+	width: 45vw;
+	height: 46.4vw;
+	margin-left:35.4vw;
+}
+.p_content .p_box_1 .p_tab1_content span{
+   display:inline-block;
+   float:left;
+   width:100%;
+   height:9.3vw;
+   text-align:center;
+   color:#e0ad79;
+   font-size:2.4vw;
+   line-height:9.3vw;
+}
+.p_content .p_box_1 .p_tab1_content span font{
+   color:#fff;
+   font-size:3vw;
+   padding-left:1vw;
+}
+
+/*  手機第二個table  */
+.p_content .p_box_all .p_tab2_content{
+   width: 87.8vw;
+   /*overflow:hidden;*/
+   margin: 2.5vw auto 0 auto;
+   /*text-align:left;*/
+}
+.p_content .p_box_all .p_tab2_content p{
+   position:relative;
+   margin:2vw 0;
+   font-size: 2.5vw;
+   line-height:3vw;
+}
+.p_content .p_box_all .p_tab2_content font{color:#ff9f00;}
+.p_content .p_box_all .p_tab2_content img{
+	width: 87.8vw;
+	padding-top:4vw;
+}
+.p_content .p_box_all .p_tab2_info{margin-top:2vw;}
+.p_content .p_box_all h1{
+	font-size: 3.5vw;
+	color: #d6a574;
+}
+/*.p_content .p_box_all .p_tab2_info p{
+	position:relative;
+	margin:2vw 0;
+	font-size: 2.5vw;
+	line-height:3vw;
+}*/
+.p_content a{
+	display: block;
+	width:52vw;
+	height:18.2vw;
+	margin:0 auto 4vw auto;
+	background: url("../images/phone/p_menu_btn.jpg") no-repeat;
+	background-size:cover;
+}
+.p_content a span{
+	display:block;
+	text-align:center;
+	line-height:18.2vw;
+	font-size:4.4vw;
+	color:#fff;
+}
+.p_content .p_dotted::before{
+   content: "•";
+  position: absolute;
+  top: 0;
+  left: -15px;
+  color:#fff;
+}
+
+/*  toggle_menu  */
+.toggle {
+  display: block;
+  cursor: pointer;
+  float:left;
+  margin: 4.5vw 0 0 4.4vw;
+}
+.toggle .line {
+  display: block;
+  background: #FFF;
+  width: 4.8vw;
+  height: 0.5vw;
+  border-radius: 0.3vw;
+  margin:1.5vw;
+  -webkit-transition: .3s all linear;
+}
+
+.line:nth-child(1) {
+  margin-bottom: 0.65vw;
+}
+
+.line:nth-child(3) {
+  margin-top: 0.65vw;
+}
+.toggle.active .line:nth-child(1) {
+  margin-bottom: 1.5vw;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 3.5vw;
+}
+.toggle.active .line:nth-child(2) {
+  margin-left: 5px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  display: none;
+}
+.toggle.active .line:nth-child(3) {
+  margin-top: 1.2vw;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 3.5vw;
+}
+
+.nav_active{display:block;}
+/* 手機遮罩彈窗 */
+.phone_mask_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  display:none;
+}
+.phone_mask_box .phone_menu{
+	width:88vw;
+	margin: 6.8vw auto 0 auto;
+}
+.phone_mask_box .phone_menu a{
+	display:block;
+	width:100%;
+	height:13vw;
+	background-color:#e3b382;
+	border-radius: 0.6vw;
+	text-align:center;
+	font-size:4.5vw;
+	line-height:13vw;
+	color:#2b1e18;
+	font-weight: 600;
+}
+.phone_mask_box .phone_menu a:hover{
+	background-color:#885c37;
+	color:#ffdab5;
+}
+.phone_mask_box .phone_menu a + a{
+	margin:2vw 0 0 0;
+}
+
+
+/* ---------------------------------------- */
+@media screen and (max-width:1024px){
+.total_wrap{display: none;}
+.phone_wrap{
+	position:relative;
+	display:block;
+	z-index:0;
+}
+.phone_mask_box{
+    height:980vw;
+	position:absolute;
+	/*display:block; */
+	z-index:999;
+	margin-top:14.6vw;
+}
+.mask_box{
+	/*position:relative;*/
+	/*height:100%;*/
+	/*overflow:hidden;*/
+	/*top:10vw;*/
+	height:calc(100%-14.6vw);
+	max-height:(100%-14.6vw);
+	top:14.6vw;
+	overflow:auto; /*設定捲製軸出現*/
+/*	border:2px solid #ff0000;*/
+    display:none;
+    z-index:99;
+}
+.mask_box_inner{
+	width:80%;
+    background-color:#020101;
+	border:1px solid #ff0000;
+	border-style:none;
+	display:none;
+	position:relative;
+	z-index:6;
+	top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mask_box_inner .login_info{
+	width: 100%;
+}
+.mask_box_inner .login_info span{color:#ff0000;}
+.mask_box_inner .close_btn{
+	right:0;
+	top:-47px;
+}
+
+/* 手機_爵位查詢 */
+.info_inner{
+	position:relative;
+	top:0;
+	left:0;
+	transform:translate(0);
+}
+.mask_box .info_inner .close_btn{
+	display:block;
+	position:absolute;
+	right:3vw;
+	top:-1.5vw;
+}
+.mask_box .info_inner{
+	width: 100%; 
+    height:1000px;
+	position:relative;
+	border-style:none;
+	background-color:#020101;
+	z-index:9;
+}
+.info_inner .info_box{
+	width:100%;
+	margin:4vw 0 0 0;
+	/*border:2px solid #ff0000;*/
+}
+.info_inner .info_box .info_top{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.info_inner .info_box .info_top span:first-child{
+	display:block;
+	width:100%;
+	text-align:center;
+	border-style:none;
+	border-bottom:2px solid #e0ad79;
+}
+.info_inner .info_box .line{display:none;}
+.info_inner .info_box .info_top span:nth-child(2){
+   margin:1vw 0 0 0;
+   width: 25%;
+   height:5vw;
+   line-height:5vw;
+}
+.info_inner .info_box .info_top span:nth-child(3){
+   margin:1vw 0 0 0;
+   width: 25%;
+   height:5vw;
+   line-height:5vw;
+}
+.info_inner .info_box .info_top span:last-child{
+   margin:1vw 0 0 0;
+   width: 50%;
+   height:5vw;
+   line-height:5vw;
+   border-style:none;
+}
+
+.info_inner .info_box2{
+	width:100%;
+	margin:4vw 0 0 0;
+	/*border:1px solid #ff0000;*/
+}
+.info_inner .info_box2 .l_box{
+    width:21.4vw;
+    height:100%;
+    /*height: 38.7vw;*/
+    margin: 0 0 4vw 7vw;
+}
+.info_inner .info_box2 .l_box .f_w{
+	font-size:2vw;
+}
+.info_inner .info_box2 .l_box span{
+	display:block;
+	height:4.2vw;
+	font-size:4vw;
+	line-height:3.5vw;
+	/*border-bottom:1px solid #e0ad79;*/
+}
+.info_inner .info_box2 .l_box span:nth-of-type(1){
+   border-bottom:1px solid #e0ad79;
+}
+.info_inner .info_box2 .r_box{
+    width:59vw;
+    height:31vw;
+    margin: 0 6vw 0 0;
+}
+
+.info_box2 .r_box .l_tab{
+	/*width:18.7vw;*/
+	width:47%;
+	height: 6.5vw;
+	/*border:1px solid #ff0000;*/
+}
+.info_box2 .r_box .r_tab{
+	width:47%;
+	height:6.5vw;
+}
+.info_box2 .r_box span{
+	height: 3.2vw;
+	line-height:3.2vw;
+	font-size:2vw;
+}
+.info_box2 .r_box div:nth-child(3){
+	margin-top:12vw;
+}
+.info_box2 .r_box div:nth-child(4){
+	margin-top:4vw;
+}
+
+/* tab setting */
+.info_box2 .info_box_tab{
+	width: 100%;
+	margin:0;
+}
+.info_box2 .info_box_tab .data_tab{
+	width:100%;
+}
+
+/* 爵位反水頁面 */
+.info_inner .info_box3{
+	width:90%;
+	position:relative;
+    margin:5vw auto 0 auto;
+    font-weight: 600;
+    font-size:2vw;
+}
+.info_inner .info_box3 .box_1{
+	width:14.5vw;
+	height:15.7vw;
+    float:none;
+}
+.info_inner .info_box3 .box_2{
+    float:none; /* 取消浮動 */
+    clear:both;
+    width:100%;
+    background-size:cover;
+    font-size:2vw;
+}
+.info_inner .info_box3 .box_2 .f_w{
+	font-size:2.5vw;
+	letter-spacing:0.4vw;
+}
+.info_inner .info_box3 .box_r{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.info_inner .info_box3 .box_3{
+	width:40vw; 
+	margin-top:0;
+}
+.info_inner .info_box3 .box_3 span{
+	font-size:3vw;
+}
+.info_inner .info_box3 .box_3 span:last-child{
+	font-size:4.5vw;
+}
+
+.data_tab tr td{
+	font-size:2vw;
+}
+}
+
+@media screen and (max-width:480px){
+.info_inner .info_box3 .box_3{
+	width:70%; 
+}
+}
